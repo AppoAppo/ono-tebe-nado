@@ -70,6 +70,7 @@
   padding-top: 165px;
   padding-right: 50px;
   padding-left: 50px;
+  padding-bottom: 51px;
   background-image: url("../images/cover.jpg");
   background-position: center;
   background-size: cover;
@@ -123,7 +124,7 @@
   z-index: 1;
   display: flex;
   gap: 75px;
-  padding: 135px 0 51px 28px;
+  margin: 135px 0 0 28px;
   color: #ffffff;
   text-transform: uppercase;
 }
