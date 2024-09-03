@@ -68,10 +68,7 @@
 .cover {
   position: relative;
   z-index: 0;
-  padding-top: 165px;
-  padding-right: 50px;
-  padding-left: 50px;
-  padding-bottom: 51px;
+  padding: 165px 50px 51px 50px ;
   background-image: url("../images/cover.jpg");
   background-position: center;
   background-size: cover;
@@ -126,9 +123,9 @@
   gap: 75px;
   margin: 135px 0 0 28px;
   color: #ffffff;
-  text-transform: uppercase;
   font-weight: 400;
   font-size: 22px;
+  text-transform: uppercase;
 }
 
 .cover__description-text {
@@ -138,13 +135,13 @@
 
 .bet-button {
   display: block;
-  white-space: nowrap;
   border: 1px solid;
   padding: 12px 32px 11px 32px;
+  font-weight: 500;
   text-align: center;
   text-decoration: none;
   background-color: transparent;
-  font-weight: 500;
+  white-space: nowrap;
 }
 
 /* Стили секции с лотами */
@@ -334,4 +331,3 @@
   width: 48px;
   height: 48px;
 }
-
